@@ -1,7 +1,7 @@
 {
   "id": "TinyMCE (v2)",
   "name": "TinyMCE (v2)",
-  "src": "https://github.com/danfusaro/tinymce-contentful/blob/master/src",
+  "src": "https://raw.githubusercontent.com/danfusaro/tinymce-contentful/master/src",
   "fieldTypes": ["Text"],
   "parameters": {
     "installation": [
