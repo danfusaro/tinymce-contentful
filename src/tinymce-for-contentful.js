@@ -14,6 +14,8 @@ window.contentfulExtension.init(function(api) {
     var p = tweak(api.parameters.instance.plugins);
     var tb = tweak(api.parameters.instance.toolbar);
     var mb = tweak(api.parameters.instance.menubar);  
+    var ppwi = tweak(api.parameters.instance.wordImport); 
+    var pphi = tweak(api.parameters.instance.htmlImport); 
 
     api.window.startAutoResizer();
 
@@ -27,8 +29,8 @@ window.contentfulExtension.init(function(api) {
       autoresize_bottom_margin: 15,
       resize: false,
       image_caption: true,
-      powerpaste_word_import: 'prompt',
-      powerpaste_html_import: 'prompt',
+      powerpaste_word_import: ppwi,
+      powerpaste_html_import: pphi,
       init_instance_callback : function(editor) {
         var listening = true;
 
